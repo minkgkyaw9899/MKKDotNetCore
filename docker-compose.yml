@@ -1,0 +1,6 @@
+﻿services:
+  mkkdotnetcore.restapi:
+    image: mkkdotnetcore.restapi
+    build:
+      context: .
+      dockerfile: MKKDotNetCore.RestApi/Dockerfile
