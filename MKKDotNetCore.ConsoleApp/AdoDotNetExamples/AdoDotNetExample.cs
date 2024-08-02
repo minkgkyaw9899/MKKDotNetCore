@@ -1,7 +1,7 @@
 using System.Data;
 using System.Data.SqlClient;
 
-namespace MKKDotNetCore.ConsoleApp;
+namespace MKKDotNetCore.ConsoleApp.AdoDotNetExamples;
 
 public class AdoDotNetExample
 {

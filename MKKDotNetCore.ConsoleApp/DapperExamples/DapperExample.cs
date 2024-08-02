@@ -1,8 +1,10 @@
 using System.Data;
 using System.Data.SqlClient;
 using Dapper;
+using MKKDotNetCore.ConsoleApp.Dtos;
+using MKKDotNetCore.ConsoleApp.Services;
 
-namespace MKKDotNetCore.ConsoleApp;
+namespace MKKDotNetCore.ConsoleApp.DapperExamples;
 
 public class DapperExample
 {

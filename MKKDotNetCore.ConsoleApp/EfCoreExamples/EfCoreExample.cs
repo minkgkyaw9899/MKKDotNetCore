@@ -1,4 +1,6 @@
-namespace MKKDotNetCore.ConsoleApp;
+using MKKDotNetCore.ConsoleApp.Dtos;
+
+namespace MKKDotNetCore.ConsoleApp.EfCoreExamples;
 
 public class EfCoreExample
 {

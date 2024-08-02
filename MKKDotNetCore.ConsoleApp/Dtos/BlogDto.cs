@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 
-namespace MKKDotNetCore.ConsoleApp;
+namespace MKKDotNetCore.ConsoleApp.Dtos;
 
 // ols school way
 

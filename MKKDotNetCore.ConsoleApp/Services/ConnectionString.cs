@@ -1,6 +1,6 @@
 using System.Data.SqlClient;
 
-namespace MKKDotNetCore.ConsoleApp;
+namespace MKKDotNetCore.ConsoleApp.Services;
 
 internal static class ConnectionString
 {

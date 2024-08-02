@@ -1,9 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using MKKDotNetCore.ConsoleApp;
+using MKKDotNetCore.ConsoleApp.AdoDotNetExamples;
+using MKKDotNetCore.ConsoleApp.DapperExamples;
+using MKKDotNetCore.ConsoleApp.EfCoreExamples;
 
 // AdoDotNetExample
-var adoDotNetExample = new AdoDotNetExample();
+// var adoDotNetExample = new AdoDotNetExample();
 
 // adoDotNetExample.ReadAll();
 
