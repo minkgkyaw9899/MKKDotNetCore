@@ -16,8 +16,13 @@ var adoDotNetExample = new AdoDotNetExample();
 // adoDotNetExample.UpdateOne(14, title: "NextJs", content: "NextJs is a framework over react", author: "MKK");
 
 // DapperExample
-var dapperExample = new DapperExample();
+// var dapperExample = new DapperExample();
 
-dapperExample.Run();
+// dapperExample.Run();
+
+// EFCoreExample
+var efCoreExample = new EfCoreExample();
+
+efCoreExample.Run();
 
 Console.ReadLine();
