@@ -20,3 +20,4 @@
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/MKKDotNetCore.ConsoleApp.pdb
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/MKKDotNetCore.ConsoleApp.genruntimeconfig.cache
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/ref/MKKDotNetCore.ConsoleApp.dll
+/Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/bin/Debug/net7.0/Dapper.dll
