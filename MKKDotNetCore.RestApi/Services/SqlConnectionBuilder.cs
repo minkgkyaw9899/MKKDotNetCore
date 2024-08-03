@@ -10,6 +10,6 @@ public static class SqlConnectionBuilder
         InitialCatalog = "DotNetTrainingBatch4",
         UserID = "sa",
         Password = "sasa@123",
-        TrustServerCertificate = true
+        // TrustServerCertificate = true
     };
 }

@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{8272A977-B91C-4C9E-9490-75118DA7C9D2}|Default">
-  <MonoDevelop.Ide.ItemProperties.MKKDotNetCore.ConsoleApp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/Program.cs" relfile="MKKDotNetCore.ConsoleApp/Program.cs" line="9" column="1" />
       <Breakpoint file="/Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/Program.cs" relfile="MKKDotNetCore.ConsoleApp/Program.cs" line="11" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MKKDotNetCore.ConsoleApp PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MKKDotNetCore.ConsoleApp/Program.cs">
     <Files>
-      <File FileName="MKKDotNetCore.ConsoleApp/Program.cs" Line="12" Column="1" />
+      <File FileName="MKKDotNetCore.ConsoleApp/Program.cs" Line="26" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,4 +24,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
 </Properties>
