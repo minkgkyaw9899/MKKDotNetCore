@@ -3,5 +3,7 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/MKKDotNetCore.ConsoleApp/AdoDotNetExamples/AdoDotNetExample.cs" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/MKKDotNetCore.ConsoleApp/DapperExamples/DapperExample.cs" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/MKKDotNetCore.RestApi/Controllers/BlogAdoController.cs" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/MKKDotNetCore.RestApi/Controllers/BlogDapperController.cs" dialect="TSQL" />
   </component>
 </project>
