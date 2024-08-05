@@ -22,4 +22,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\MKKDotNetCore.Shared\MKKDotNetCore.Shared.csproj" />
+    </ItemGroup>
+
 </Project>

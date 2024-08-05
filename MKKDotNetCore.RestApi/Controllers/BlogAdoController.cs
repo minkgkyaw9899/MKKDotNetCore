@@ -133,10 +133,8 @@ public class BlogAdoController : ControllerBase
         {
             return Ok("Blog updated successfully");
         }
-        else
-        {
-            return Conflict("Can't update blog");
-        }
+
+        return Conflict("Can't update blog");
     }
 
     [HttpPatch("{id}")]
@@ -211,10 +209,8 @@ public class BlogAdoController : ControllerBase
         {
             return Ok("Blog deleted successfully");
         }
-        else
-        {
-            return Conflict("Can't delete blog");
-        }
+
+        return Conflict("Can't delete blog");
     }
 
     private BlogsModel? FindBlogById(int id)
@@ -235,17 +231,15 @@ public class BlogAdoController : ControllerBase
         {
             return null;
         }
-        else
-        {
-            var blog = new BlogsModel()
-            {
-                BlogId = Convert.ToInt32(dt.Rows[0]["BlogId"]),
-                BlogAuthor = Convert.ToString(dt.Rows[0]["BlogAuthor"]),
-                BlogTitle = Convert.ToString(dt.Rows[0]["BlogTitle"]),
-                BlogContent = Convert.ToString(dt.Rows[0]["BlogContent"])
-            };
 
-            return blog;
-        }
+        var blog = new BlogsModel()
+        {
+            BlogId = Convert.ToInt32(dt.Rows[0]["BlogId"]),
+            BlogAuthor = Convert.ToString(dt.Rows[0]["BlogAuthor"]),
+            BlogTitle = Convert.ToString(dt.Rows[0]["BlogTitle"]),
+            BlogContent = Convert.ToString(dt.Rows[0]["BlogContent"])
+        };
+
+        return blog;
     }
 }

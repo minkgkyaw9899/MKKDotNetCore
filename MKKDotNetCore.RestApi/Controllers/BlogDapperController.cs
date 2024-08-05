@@ -4,6 +4,7 @@ using Dapper;
 using Microsoft.AspNetCore.Mvc;
 using MKKDotNetCore.RestApi.Models;
 using MKKDotNetCore.RestApi.Services;
+using MKKDotNetCore.Shared;
 
 namespace MKKDotNetCore.RestApi.Controllers;
 
@@ -11,15 +12,14 @@ namespace MKKDotNetCore.RestApi.Controllers;
 [ApiController]
 public class BlogDapperController : ControllerBase
 {
+    private readonly DapperService _dapperService = new DapperService(SqlConnectionBuilder.Builder.ConnectionString);
 
     [HttpGet]
     public IActionResult GetAll()
     {
-        using IDbConnection db = new SqlConnection(SqlConnectionBuilder.Builder.ConnectionString);
-
         const string query = @"SELECT * FROM [Dbo].[Tbl_Blog]";
 
-        var blogs = db.Query<BlogsModel>(query).ToList();
+        var blogs = _dapperService.QueryAll<BlogsModel>(query);
 
         return Ok(blogs);
     }
@@ -60,7 +60,6 @@ public class BlogDapperController : ControllerBase
     [HttpPatch("{id}")]
     public IActionResult UpdateWithPatch(int id, BlogsModel body)
     {
-
         var blog = FindModelById(id);
 
         if (blog is null)
@@ -171,12 +170,11 @@ public class BlogDapperController : ControllerBase
         return Ok(message);
     }
 
+
     private BlogsModel? FindModelById(int id)
     {
-        using IDbConnection db = new SqlConnection(SqlConnectionBuilder.Builder.ConnectionString);
-
         const string query = @"SELECT * FROM [Dbo].[Tbl_Blog] WHERE BlogId = @BlogId";
 
-        return db.Query<BlogsModel>(query, new BlogsModel() { BlogId = id }).FirstOrDefault();
+        return _dapperService.QueryOne<BlogsModel>(query, new BlogsModel() { BlogId = id });
     }
 }
