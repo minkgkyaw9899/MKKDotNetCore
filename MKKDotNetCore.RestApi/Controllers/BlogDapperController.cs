@@ -1,12 +1,4 @@
-﻿using System.Data;
-using System.Data.SqlClient;
-using Dapper;
-using Microsoft.AspNetCore.Mvc;
-using MKKDotNetCore.RestApi.Models;
-using MKKDotNetCore.RestApi.Services;
-using MKKDotNetCore.Shared;
-
-namespace MKKDotNetCore.RestApi.Controllers;
+﻿namespace MKKDotNetCore.RestApi.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

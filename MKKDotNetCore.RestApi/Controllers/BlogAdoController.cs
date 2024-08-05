@@ -1,9 +1,3 @@
-using System.Data;
-using System.Data.SqlClient;
-using Microsoft.AspNetCore.Mvc;
-using MKKDotNetCore.RestApi.Models;
-using MKKDotNetCore.RestApi.Services;
-
 namespace MKKDotNetCore.RestApi.Controllers;
 
 [Route("api/[controller]")]
