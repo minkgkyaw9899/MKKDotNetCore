@@ -1,4 +1,4 @@
-namespace MKKDotNetCore.ApiWithNLayer.Features;
+namespace MKKDotNetCore.ApiWithNLayer.Features.Blog;
 
 public class BlogBusinessLayer
 {

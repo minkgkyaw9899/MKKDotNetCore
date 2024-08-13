@@ -3295,11 +3295,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/MKKDotNetCore.ConsoleApp.csproj",
+      "projectUniqueName": "/Users/miracle/workspace/mkk/MKKDotNetCore/MKKDotNetCore.ConsoleApp/MKKDotNetCore.ConsoleApp.csproj",
       "projectName": "MKKDotNetCore.ConsoleApp",
-      "projectPath": "/Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/MKKDotNetCore.ConsoleApp.csproj",
+      "projectPath": "/Users/miracle/workspace/mkk/MKKDotNetCore/MKKDotNetCore.ConsoleApp/MKKDotNetCore.ConsoleApp.csproj",
       "packagesPath": "/Users/miracle/.nuget/packages/",
-      "outputPath": "/Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/",
+      "outputPath": "/Users/miracle/workspace/mkk/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/miracle/.nuget/NuGet/NuGet.Config"
@@ -3365,7 +3365,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
       }
     }
   }

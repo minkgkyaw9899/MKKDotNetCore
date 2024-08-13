@@ -14,7 +14,6 @@
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/MKKDotNetCore.ConsoleApp.AssemblyInfoInputs.cache
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/MKKDotNetCore.ConsoleApp.AssemblyInfo.cs
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/MKKDotNetCore.ConsoleApp.csproj.CoreCompileInputs.cache
-/Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/MKKDotNetCore.ConsoleApp.csproj.CopyComplete
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/MKKDotNetCore.ConsoleApp.dll
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/refint/MKKDotNetCore.ConsoleApp.dll
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/MKKDotNetCore.ConsoleApp.pdb
@@ -73,3 +72,5 @@
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/bin/Debug/net7.0/System.CodeDom.dll
+/Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/MKKDotNetCore.ConsoleApp.sourcelink.json
+/Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/obj/Debug/net7.0/MKKDotNe.235F1BC4.Up2Date

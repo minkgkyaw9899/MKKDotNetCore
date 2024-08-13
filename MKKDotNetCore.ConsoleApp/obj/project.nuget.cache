@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+mIHL4DD22k1MgGXO0JmEXkuZFYwFo5uxezM04ScbCuwRF1wCpLPZI/ZpktgXvM8p2NxOixoK6UmAuB3EYWPBA==",
+  "dgSpecHash": "jHZHrU27u3GB2Fnl2kIpSewXRq9cuYxXgU0Ilnug/2unLwBe+728iv2PIwwmMP3GBiDA0SXjZGEv/bYMdSrPeg==",
   "success": true,
-  "projectFilePath": "/Users/miracle/workspace/MKKDotNetCore/MKKDotNetCore.ConsoleApp/MKKDotNetCore.ConsoleApp.csproj",
+  "projectFilePath": "/Users/miracle/workspace/mkk/MKKDotNetCore/MKKDotNetCore.ConsoleApp/MKKDotNetCore.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "/Users/miracle/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/miracle/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

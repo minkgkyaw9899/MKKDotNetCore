@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKKDotNetCore.Shared", "MKK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKKDotNetCore.ApiWithNLayer", "MKKDotNetCore.ApiWithNLayer\MKKDotNetCore.ApiWithNLayer.csproj", "{14BC373B-E550-4A66-82EC-D7106722C67A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKKDotNetCore.ConsoleAppHttpClient", "MKKDotNetCore.ConsoleAppHttpClient\MKKDotNetCore.ConsoleAppHttpClient.csproj", "{E9921DEC-32A5-4C76-9E84-8082FCE769E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKKDotNetCore.SnakeApi", "MKKDotNetCore.SnakeApi\MKKDotNetCore.SnakeApi.csproj", "{7EC19867-38E4-435C-850B-48AB546E1B1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKKDotNetCoreMvcApp", "MKKDotNetCoreMvcApp\MKKDotNetCoreMvcApp.csproj", "{BC1BCC40-4C74-40A6-8CEB-36CF21592813}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,5 +41,17 @@ Global
 		{14BC373B-E550-4A66-82EC-D7106722C67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14BC373B-E550-4A66-82EC-D7106722C67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14BC373B-E550-4A66-82EC-D7106722C67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9921DEC-32A5-4C76-9E84-8082FCE769E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9921DEC-32A5-4C76-9E84-8082FCE769E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9921DEC-32A5-4C76-9E84-8082FCE769E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9921DEC-32A5-4C76-9E84-8082FCE769E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC19867-38E4-435C-850B-48AB546E1B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC19867-38E4-435C-850B-48AB546E1B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC19867-38E4-435C-850B-48AB546E1B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC19867-38E4-435C-850B-48AB546E1B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1BCC40-4C74-40A6-8CEB-36CF21592813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1BCC40-4C74-40A6-8CEB-36CF21592813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1BCC40-4C74-40A6-8CEB-36CF21592813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1BCC40-4C74-40A6-8CEB-36CF21592813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

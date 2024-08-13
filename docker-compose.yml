@@ -4,3 +4,15 @@
     build:
       context: .
       dockerfile: MKKDotNetCore.RestApi/Dockerfile
+
+  mkkdotnetcore.snakeapi:
+    image: mkkdotnetcore.snakeapi
+    build:
+      context: .
+      dockerfile: MKKDotNetCore.SnakeApi/Dockerfile
+
+  mkkdotnetcore.snakeapi-1:
+    image: mkkdotnetcore.snakeapi-1
+    build:
+      context: .
+      dockerfile: MKKDotNetCore.SnakeApi/Dockerfile
